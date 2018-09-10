@@ -23,3 +23,10 @@ to create a system-wide applications link.
 > \# ./scripts/update-firefox57.sh
 
 
+## Arguments
+
+| Arguments     | Option       |
+| ------------- |:-------------|
+| -f  \| --force-override| "Override" firefox binary even if it is running / busy. Firefox may crash |
+| -nc \| --no-check| Skips check if firefox was downloaded recently. Force redownload |
+| -h  \| --help | Shows help message |
